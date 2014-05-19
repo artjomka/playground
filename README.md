@@ -1,4 +1,4 @@
 playground
 ==========
 
-Very smelly code example
+Very smelly code example for interview
