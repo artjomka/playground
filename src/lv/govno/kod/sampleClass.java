@@ -1,3 +1,5 @@
+package lv.govno.kod;
+
 public class sampleClass {
 
     public static void main(String[] args) {
