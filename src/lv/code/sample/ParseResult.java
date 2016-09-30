@@ -1,4 +1,4 @@
-package lv.govno.kod;
+package lv.code.sample;
 
 /**
  * Parse result
