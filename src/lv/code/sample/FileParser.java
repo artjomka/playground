@@ -15,7 +15,7 @@ public class FileParser {
   private static int doItCount = 0;
 
   public ArrayList<ParseResult> doIt(String x) {
-    String m = new String("OK");
+    String s = new String("OK");
     try {
 
       Path path = Paths.get(x);
@@ -55,12 +55,12 @@ public class FileParser {
     }
     catch (Exception e) {
       if (e.getClass().getName().equals(IOException.class.getName())) {
-        m = "INPUT_EXCEPTION";
+        s = "INPUT_EXCEPTION";
       } else  {
-        m = "EXCEPTION";
+        s = "EXCEPTION";
       }
     }
-    System.out.println("Processing result status was" + m);
+    System.out.println("Processing result status was" + s);
     return null;
   }
 
